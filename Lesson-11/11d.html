@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+  <head>
+    <style>
+      .section {
+        display: grid;
+        grid-template-columns:200px 200px 200px;
+        column-gap: 20px;
+      } 
+
+      .card {
+        display: grid;
+        /* grid-template-rows: auto 1fr; */
+        box-shadow: 00 05px 10px rgba(00, 00, 00, 0.4);
+        /* overflow: hidden; */
+      }
+
+      .info-section {
+        display: grid;
+        row-gap: 12px;
+        padding-left: 12px;
+        padding-bottom: 12px;
+        padding-top: 12px;
+      }
+
+      .mutual-info {
+        display: grid;
+        grid-template-columns:40px 1fr;
+        column-gap: 2px;
+        align-items: center;
+      } 
+
+
+      button {
+        background-color: #4380EC;
+        color: white;
+        border-radius: 4px;
+        border: none;
+        height: 32px;
+        width: 100px;
+        cursor: pointer;
+      }
+
+      .mutual-photo {
+        height: 30px;
+        width: 30px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 24px;
+      }
+
+      .my-photo {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .mutual-number {
+        color: lightgray;
+        font-size: 16px;
+      }
+
+      .name {
+        font-size: 24px;
+        font-weight: 700;
+      }
+
+      p {
+        font-family: arial;
+        margin-bottom: 0px;
+        margin-top: 0px;
+      }
+    </style>
+  </head>
+
+  <body>
+      <div class="section"><!-- column grid  -->
+        <div class="card"> <!-- Individual sections -->
+           <img class="my-photo" src="image-mesh-gradient (1).png">
+            <div class="info-section">
+              <p class="name">
+                Oliver
+              </p>
+              <div class="mutual-info">
+                <img class="mutual-photo" src="Screenshot 2025-10-12 at 12.19.43 PM.png">
+                <p class="mutual-number">
+                  2 mutual friends
+                </p>
+              </div>
+              <button>
+                Add Friend
+              </button>
+            </div>
+        </div>
+
+        <div class="card"> <!-- Individual sections -->
+           <img class="my-photo" src="image-mesh-gradient (2).png">
+            <div class="info-section">
+              <p class="name">
+                Oliver
+              </p>
+              <div class="mutual-info">
+                <img class="mutual-photo" src="Screenshot 2025-10-12 at 12.19.43 PM.png">
+                <p class="mutual-number">
+                  2 mutual friends
+                </p>
+              </div>
+              <button>
+                Add Friend
+              </button>
+            </div>
+        </div>
+
+        <div class="card"> <!-- Individual sections -->
+           <img class="my-photo" src="image-mesh-gradient (3).png">
+            <div class="info-section">
+              <p class="name">
+                Oliver
+              </p>
+              <div class="mutual-info">
+                <img class="mutual-photo" src="Screenshot 2025-10-12 at 12.19.43 PM.png">
+                <p class="mutual-number">
+                  2 mutual friends
+                </p>
+              </div>
+              <button>
+                Add Friend
+              </button>
+            </div>
+        </div>
+    </div>
+  </body>
+
+</html>
