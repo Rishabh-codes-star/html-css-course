@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+  <head>
+    <title>
+      Sidebar
+    </title>
+    <style>
+      .box {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 12px 8px 12px 8px; 
+        border: 1px solid lightgray;
+        border-radius: 4px;
+        width: 300px; 
+      }
+      .sidebars {
+        display: flex;
+        justify-content: space-between;
+      }
+      .notification-count {
+        background-color: #4B77F0;
+        width: 40px;
+        height: 25px;
+        border-radius: 40px;
+
+        display: flex;
+        align-items: center;        
+        justify-content: center;
+
+        color: white;
+        font-weight: 600;
+      }
+
+      p {
+        margin: 0; 
+        font-family: arial;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box" >
+      <div class="sidebars">
+        <p>
+          Home
+        </p>
+        <p class="notification-count">
+          14
+        </p>
+      </div>  
+      <div class="sidebars">
+        <p>
+          Notification
+        </p>
+        <p class="notification-count">
+          84
+        </p>
+      </div>
+      <div class="sidebars">
+        <p>
+          Message
+        </p>
+        <p class="notification-count">
+          5
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
