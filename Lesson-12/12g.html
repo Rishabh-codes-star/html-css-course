@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+  <head>
+    <style>
+      .list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+        /* border: 1px solid black; */
+        width: 400px;
+        margin: 12px; 
+      }
+      
+      .profile {
+        display: flex;
+        justify-content: space-between;
+        /* gap: 12px; */
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+      }
+      
+      img {
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .meta-info {
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
+      }
+
+      .meta-card {
+        display: flex;
+        flex-direction: row;
+        column-gap: 16px;
+        align-items: center;
+      }
+
+      .name {
+        font-size: 16px;
+        font-weight: 700;
+      }
+
+      .description {
+        font-size: 16px;
+        font-weight: 500;
+        color: gray;
+      }
+
+      .tag {
+        font-size: 14px;
+        color: gray;
+      }
+
+      p {
+        font-family: arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      button {
+        color: white;
+        background-color: blue;
+        width: 80px;
+        height: 35px;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        font: 700;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="list">
+      <div class="profile">
+        <div class="meta-card"> 
+          <div>
+            <img src="image-mesh-gradient (1).png">
+          </div>
+          <div class="meta-info">
+            <p class="name">
+              Oliver
+            </p>
+            <p class="description">
+              the Cat
+            </p>
+            <p class="tag">
+              Popular
+            </p>
+          </div>
+        </div>
+        <div>
+          <button>
+            Follow
+          </button>
+        </div>
+      </div>
+      <div class="profile">
+        <div class="meta-card"> 
+          <div>
+            <img src="image-mesh-gradient (2).png">
+          </div>
+          <div class="meta-info">
+            <p class="name">
+              Mimi
+            </p>
+            <p class="description">
+              Sleeply Cat
+            </p>
+            <p class="tag">
+              Popular
+            </p>
+          </div>
+        </div>
+        <div>
+          <button>
+            Follow
+          </button>
+        </div>
+      </div>
+      <div class="profile">
+        <div class="meta-card"> 
+          <div>
+            <img src="image-mesh-gradient (3).png">
+          </div>
+          <div class="meta-info">
+            <p class="name">
+              Rex
+            </p>
+            <p class="description">
+              Bull dog
+            </p>
+            <p class="tag">
+              Popular
+            </p>
+          </div>
+        </div>
+        <div>
+          <button>
+            Follow
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
