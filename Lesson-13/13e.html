@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+  <head>
+    <style>
+      .tweet {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        width: 400px;
+      }
+      .element-1 {
+        width: 60px;
+        height: 60px;
+      }
+      .element-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+      .name {
+        display: inline;
+      }
+      /* .content {
+
+      } */
+      .external-link {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        width: 100%;
+        height: 100px;
+        margin-top: 8px;
+        border: 1px solid lightgrey;
+        border-radius: 16px;
+      }
+      .link-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 8px;
+      }
+      .link-image {
+        color: lightgray;
+        width: 80px;
+        height: 100%;
+        border-radius: 16px 00 00 16px;
+      }
+      .link {
+        color: lightgray;
+      }
+      img {
+        width: 60px;
+        height: 60px;
+        border: none;
+        border-radius: 30px;
+        object-fit: cover;
+        object-position: center;
+      }
+      p {
+        margin: 0;
+        font-family: arial;
+        color: black;
+        display: inline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tweet">
+      <div class="element-1">
+        <img src="image-mesh-gradient (1).png">
+      </div>
+      <div class="element-2">
+        <div class="name">
+          <p style="font-weight: 700; ">supersimple.dev</p>
+          <p style="color: lightgrey;">@SuperSimpleDev</p>
+        </div>
+        <div class="content">
+          <p>What is backend web development? A complete overview. New video is up!</p>
+        </div>
+        <div class="external-link">
+          <div>
+            <img class="link-image" src="image-mesh-gradient (2).png">
+          </div>
+          <div class="link-info">
+            <p class="link">Youtube.com</p>
+            <p class="link-description">Backend web development - a complete overview (2021)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
